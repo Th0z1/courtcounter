@@ -37,11 +37,11 @@ export class HomePage {
     console.log(this.scoreTeamB);
   }
   onTwoB(){
-    this.scoreTeamB += 3;
+    this.scoreTeamB += 2;
     console.log(this.scoreTeamB);
   }
   onThrowB(){
-    this.scoreTeamB += 3;
+    this.scoreTeamB += 1;
     console.log(this.scoreTeamB);
   }
 }
