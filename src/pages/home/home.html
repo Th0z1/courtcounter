@@ -9,30 +9,25 @@
 <ion-content padding>
  
     <div id="teamA">
-        <h1>Team A</h1>
-        <ion-item>
-            <div>
-            <h1>  {{scoreTeamA}}</h1>
-            </div>  
-           </ion-item>
-      
-      <button ion-button block (click)="onClickA()" color="orange">+3 points</button>
-   <button ion-button block (click)="onTwoA()" color="orange">+2 points</button>
-   <button ion-button block (click)="onThrowA()" color="orange">FREE THROW</button>
+        <h3>Team A</h3>
+         
+      <ion-item>
+        <ion-label class="h101">{{scoreTeamA}}</ion-label>
+      </ion-item>
+      <button ion-button block (click)="onClickA()" color="orange">+3 points</button><br>
+   <button ion-button block (click)="onTwoA()" color="orange">+2 points</button><br>
+   <button ion-button block (click)="onThrowA()" color="orange">FREE THROW</button><br>
     </div>
     <div id="teamB">
-        <h1>Team B</h1>
+        <h3>Team B</h3>
         <ion-item>
-            <div>
-             <h1>
-                {{scoreTeamB}}
-             </h1>
-            </div>  
-           </ion-item>
+                <ion-label class="h102">{{scoreTeamB}}</ion-label>
+              </ion-item> 
+           
       
-      <button ion-button block (click)="onClickB()" color="orange">+3 points</button>
-   <button ion-button block (click)="onTwoB()" color="orange">+2 points</button>
-   <button ion-button block (click)="onThrowB()" color="orange">FREE THROW</button>
+      <button ion-button block (click)="onClickB()" color="orange">+3 points</button><br>
+   <button ion-button block (click)="onTwoB()" color="orange">+2 points</button><br>
+   <button ion-button block (click)="onThrowB()" color="orange">FREE THROW</button><br>
     </div>
     <div id="reset">
      <button ion-button block (click)="onReset()" color="orange">Reset</button>  

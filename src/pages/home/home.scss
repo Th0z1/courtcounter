@@ -24,7 +24,7 @@ page-home {
 }
 #reset{
     width: 50%;
-    margin-top: 150%;
+    margin-top: 100%;
     position: bottom;
     padding-bottom: 60%;
     padding-left: 30%;
@@ -35,8 +35,29 @@ page-home {
         color: #222;
     }
 }
-h1{
+h3{
+    text-align: center;   
+}
+#sta {
+    text-align: center; 
+    font-size: 50px;
+}
+#stb  {
+    text-align: center; 
+    font-size: 50px;
+// #sta ion-lable{
+//     text-align: center; 
+//     font-size: 40px;
+// }
+// #stb{
+//     font-size: 71px;
+// }
+}}
+.h101{
+    font-size: 50px;
     text-align: center;
 }
-
+.h102{
+    font-size: 50px;
+    text-align: center;
 }
